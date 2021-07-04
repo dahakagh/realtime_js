@@ -1,12 +1,14 @@
 import "./App.css";
-//import LongPulling from "./LongPulling";
-import EventSourcing from "./EventSourcing";
+//import LongPolling from "./LongPolling";
+//import EventSourcing from "./EventSourcing";
+import WebSocketComponent from "./WebSocketComponent";
 
 function App() {
   return (
     <div>
-      {/* <LongPulling /> */}
-      <EventSourcing />
+      {/* <LongPolling /> */}
+      {/* <EventSourcing /> */}
+      <WebSocketComponent />
     </div>
   );
 }
